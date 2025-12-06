@@ -1,0 +1,121 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/bg.jpg") no-repeat center center/cover;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+.main-title {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-shadow: 0 0 10px #fff;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+.right-box {
+  text-align: center;
+}
+
+.record-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  /* background: rgba(0, 150, 255, 0.3); */
+  border: 1px solid #7bc9ff;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.record-btn:hover {
+  background: rgba(0, 150, 255, 0.5);
+}
+
+.audio-player {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.save-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #7bc9ff;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: rgba(0, 150, 255, 0.4);
+}
+
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 40px;
+}
+
+.glass-box {
+
+  background: none;
+ 
+  padding: 30px;
+  width: 450px;
+ 
+  margin: 50px;
+}
